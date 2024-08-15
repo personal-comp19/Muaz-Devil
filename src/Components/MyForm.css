@@ -1,0 +1,83 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    background-image: url('/src/Components/images (1).jpeg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  Form {
+    width: 400px;
+    padding: 25px;
+    background-color: #1f2eb1;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    background-color: #1f2eb1;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom:20px;
+   
+  
+  }
+  
+  label {
+    width: 40%;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: large;
+    
+    margin-right: 10px;
+    text-align: left;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 30%;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #2f179c;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    margin: 5%;
+  }
+  
+  button[type="button"] {
+    background-color: #2f14a5;
+  }
+  
+  button:hover {
+    background-color: #470000;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #470000;
+  }
+  
+  .success-message {
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    font-size:25px;
+    
+  }
+  
