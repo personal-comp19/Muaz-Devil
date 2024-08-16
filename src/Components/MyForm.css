@@ -1,8 +1,10 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     background-color: #ffffff;
-    background-image: url('/src/Components/images (1).jpeg');
+    background-image: url('./images.jpg');
+    background-size: cover;
     display: flex;
+    
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -12,64 +14,60 @@ body {
   Form {
     width: 400px;
     padding: 25px;
-    background-color: #1f2eb1;
+    background-color: #fdfdfd;
     border-radius: 30px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    opacity:70%;
+    text-align: left;
   }
-  
-  h1 {
-    background-color: #1f2eb1;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    font-weight: bold;
-    color: #ffffff;
-    margin-bottom:20px;
-   
-  
-  }
-  
+
   label {
     width: 40%;
     font-weight: bold;
-    color: #ffffff;
-    font-size: large;
+    color: #05633a;
+   
     
-    margin-right: 10px;
-    text-align: left;
+    
+    
+   
+   
   }
   
   input {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+    border: 3px solid #6c6b6b;
+    border-radius: 10px;
     box-sizing: border-box;
+    font-weight: bold;
+    font-size: 15px;
+    
   }
   
   button {
     width: 30%;
     padding: 10px;
     margin-top: 5px;
-    background-color: #2f179c;
+    background-color: #057149;
     color: #fff;
     border: none;
     border-radius: 3px;
     cursor: pointer;
     text-align: center;
-    margin: 5%;
+    margin: 10%;
   }
   
   button[type="button"] {
-    background-color: #2f14a5;
+    background-color:  #057149;
   }
   
   button:hover {
-    background-color: #470000;
+    background-color: #9c9c9c;
   }
   
   button[type="button"]:hover {
-    background-color: #470000;
+    background-color: #858282;
   }
   
   .success-message {
