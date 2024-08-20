@@ -1,0 +1,97 @@
+body{
+  opacity:70%;
+  background-image: url('./images.jpg');
+  background-size:100%; 
+}
+
+.my-list-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  
+  font-weight: bold;
+  color: #f4f4f4;
+  
+  
+
+}
+.header-title {
+  color: #ffffff; 
+  font-size: 34px; 
+  text-align: center; 
+  font-size: bold
+  ; 
+  background-color: #000000;
+  margin-bottom: 20px; 
+}
+
+.item-list,
+.object-list {
+  text-align: left;
+  text-decoration-color: rgb(28, 202, 144);
+  margin-bottom: 20px;
+  padding: 5px;
+  list-style-type: none;
+  width: 100%;
+  background-size: cover;
+  
+}
+
+.item-list li,
+.object-list li {
+  margin: 5px 0;
+  padding-left: 20px; 
+  text-decoration-color: rgb(28, 202, 144);
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+.item-select {
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  font-size: bold
+  ;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  align-self:baseline;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+
+.object-table {
+  width: 80%; 
+  border-collapse: collapse;
+  border: 1px solid #000000;
+  
+  margin: 20px auto; 
+  max-height: 200px; 
+  overflow-y: auto; 
+  background-color: #1a9c1a;
+
+
+  
+}
+
+
+.object-table th {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  text-transform: capitalize;
+
+}
+
+.object-table td {
+  border: 1px solid #ccc;
+  color: #ffffff;
+  padding: 10px;
+  text-align: left;
+  text-shadow: #270101;
+  font-size: 18px;
+  font-weight: bold;
+
+}
